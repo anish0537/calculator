@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BASIC CALCULATOR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <form class = "form" name = "calculator1" action="index.php" method="post">
+    <input type="text" name="textfield" id="numtxt" disabled><br>
+    <br>
+    <button type="button" class = "num"   onclick="number(this)"   value="1" id="one"     name="1">1</button>&nbsp;
+    <button type="button" class = "num"   onclick="number(this)"   value="2" id="two"     name="2">2</button>&nbsp;
+    <button type="button" class = "num"   onclick="number(this)"   value="3" id="three"   name="3">3</button>&nbsp;
+    <button type="button" class = "op"   onclick="operator(this)" value="+" id="plusOp"  name="plus">+</button><br>
+    <br>
+    <button type="button" class = "num"  onclick="number(this)"    value="4" id="four"    name="4">4</button>&nbsp;
+    <button type="button" class = "num"  onclick="number(this)"    value="5" id="five"    name="5">5</button>&nbsp;
+    <button type="button" class = "num"  onclick="number(this)"    value="6" id="six"     name="6">6</button>&nbsp;
+    <button type="button" class = "op"  onclick="operator(this)"  value="-" id="minusOp" name="minus">-</button><br>
+    <br>
+    <button type="button" class = "num"  onclick="number(this)"    value="7" id="seven"      name="7">7</button>&nbsp;
+    <button type="button" class = "num"  onclick="number(this)"    value="8" id="eight"      name="8">8</button>&nbsp;
+    <button type="button" class = "num"  onclick="number(this)"    value="9" id="nine"       name="9">9</button>&nbsp;
+    <button type="button" class = "op"  onclick="operator(this)"  value="*" id="multiplyOp" name="multiply">*</button><br>
+    <br>
+    <button type="button" class = "perform" onclick="calculation(this)" value="="     id='equals'>=</button>&nbsp;
+    <button type="button" class = "num"     onclick="number(this)"      value="0"     id="zero"       name="0">0</button>&nbsp;
+    <button type="button" class = "op"     onclick="operator(this)"    value="/"     id="divisionOp" name="division">/</button>&nbsp;
+    <button type="button" class = "clear"   onclick="Clear(this)"       value="clear" id="clear"      name="clear">AC</button><br>
+    
+  </form>
+  <p id="answer"></p>
+  <script src="script1.js"></script>
+</body>
+</html>

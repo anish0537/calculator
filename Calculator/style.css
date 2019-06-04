@@ -1,0 +1,104 @@
+.form{
+    width: 195px;
+    height: 270px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: skyblue;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px 4px black;
+    
+}
+#numtxt{
+    background: powderblue;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 0.5px solid blue;
+    font-weight: bold;
+    color: purple;
+    font-size: 15pt;
+    width: 170px;
+}
+body{
+    background: greenyellow;
+}
+.num{
+    border: none;
+    background: skyblue;
+    font-size: 25px;
+}
+.num:hover{
+    transform: scale(1.5);
+}
+.op{
+    border: none;
+    background: skyblue;
+    font-size: 28px;
+    text-align: center;
+}
+.op:hover{
+    transform: scale(1.5)
+}
+#minusOp{
+    width: 28px
+}
+#multiplyOp{
+    width: 28px
+}
+.perform{
+    border: none;
+    background: skyblue;
+    font-size: 28px;
+    text-align: center;
+}
+.perform:hover{
+    transform: scale(1.5);
+}
+.clear{
+    border: none;
+    background: skyblue;
+    font-size: 16px;
+    text-align: center;
+}
+.clear:hover{
+    transform: scale(1.5);
+}
+#two{
+    margin-left: 12px;
+}
+#five{
+    margin-left: 12px;
+}
+#eight{
+    margin-left: 12px;
+}
+#zero{
+    margin-left: 12px;
+}
+#three{
+    margin-left: 12px;
+}
+#six{
+    margin-left: 12px;
+}
+#nine{
+    margin-left: 12px;
+}
+#divisionOp{
+    margin-left: 12px;
+}
+#plusOp{
+    margin-left: 12px;
+}
+#minusOp{
+    margin-left: 12px;
+}
+#multiplyOp{
+    margin-left: 12px;
+}
+#clear{
+    margin-left: 12px;
+}
